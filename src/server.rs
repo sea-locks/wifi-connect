@@ -144,6 +144,7 @@ pub fn start_server(
     router.get("/", Static::new(ui_directory), "index");
     router.get("/networks", networks, "networks");
     router.post("/connect", connect, "connect");
+    router.post("/stop", stop, "stop");
 
     let mut assets = Mount::new();
     assets.mount("/", router);
@@ -215,6 +216,18 @@ fn connect(req: &mut Request) -> IronResult<Response> {
 
     if let Err(e) = request_state.network_tx.send(command) {
         exit_with_error(&request_state, e, ErrorKind::SendNetworkCommandConnect)
+    } else {
+        Ok(Response::with(status::Ok))
+    }
+}
+
+fn stop(req: &mut Request) -> IronResult<Response> {
+    debug!("Incoming `stop` request");
+
+    let request_state = get_request_state!(req);
+
+    if let Err(e) = request_state.network_tx.send(NetworkCommand::Exit) {
+        exit_with_error(&request_state, e, ErrorKind::StopAccessPoint)
     } else {
         Ok(Response::with(status::Ok))
     }
