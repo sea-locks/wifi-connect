@@ -1,4 +1,24 @@
 - commits:
+    - subject: Add "/stop" endpoint to stop the application from outside.
+      hash: 6e6c2aa636f4d0a6d689357c28f207b2d0b85cb8
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Samuel Weibel
+  version: 4.2.10
+  date: 2019-09-18T11:29:43.614Z
+- commits:
+    - subject: Add "/stop" endpoint to stop the application from outside.
+      hash: 6e6c2aa636f4d0a6d689357c28f207b2d0b85cb8
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Samuel Weibel
+  version: 4.2.10
+  date: 2019-09-18T11:29:14.206Z
+- commits:
     - subject: Add link to supported boards/dongles
       hash: 28f1e9ffa1cdf5df76eb5d81e61a5fc7bea28d9c
       body: ''
