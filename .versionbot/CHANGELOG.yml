@@ -1,5 +1,51 @@
 - commits:
     - subject: >-
+        Removed Apple portal detection addresses from special list to test if
+        this fixes iPhone portal showing up.
+      hash: c489d495675846b1a5e8c4b6a73bcdd06b5f1f2f
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Samuel Weibel <samuel.weibel@sea.ch>
+        signed-off-by: Samuel Weibel <samuel.weibel@sea.ch>
+      author: Samuel Weibel
+    - subject: Delete only the right AP profile on start
+      hash: 38770406eee93f5031c6de5b0413fce9279719da
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Zahari Petkov <zahari@balena.io>
+        signed-off-by: Zahari Petkov <zahari@balena.io>
+      author: Zahari Petkov
+  version: 4.2.12
+  date: 2019-09-19T14:18:28.848Z
+- commits:
+    - subject: >-
+        Removed Apple portal detection addresses from special list to test if
+        this fixes iPhone portal showing up.
+      hash: c489d495675846b1a5e8c4b6a73bcdd06b5f1f2f
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Samuel Weibel <samuel.weibel@sea.ch>
+        signed-off-by: Samuel Weibel <samuel.weibel@sea.ch>
+      author: Samuel Weibel
+    - subject: Delete only the right AP profile on start
+      hash: 38770406eee93f5031c6de5b0413fce9279719da
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Zahari Petkov <zahari@balena.io>
+        signed-off-by: Zahari Petkov <zahari@balena.io>
+      author: Zahari Petkov
+  version: 4.2.12
+  date: 2019-09-19T14:18:11.857Z
+- commits:
+    - subject: >-
         Added special addresses to dnsmasq configuration to fix the portal on
         Android.
       hash: 79d70c3f06740699b3f6c25e62fdc3a7bfd65cdf
