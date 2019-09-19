@@ -1,4 +1,32 @@
 - commits:
+    - subject: >-
+        Added special addresses to dnsmasq configuration to fix the portal on
+        Android.
+      hash: 79d70c3f06740699b3f6c25e62fdc3a7bfd65cdf
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Samuel Weibel <samuel.weibel@sea.ch>
+        signed-off-by: Samuel Weibel <samuel.weibel@sea.ch>
+      author: Samuel Weibel
+  version: 4.2.11
+  date: 2019-09-19T12:55:20.467Z
+- commits:
+    - subject: >-
+        Added special addresses to dnsmasq configuration to fix the portal on
+        Android.
+      hash: 79d70c3f06740699b3f6c25e62fdc3a7bfd65cdf
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Samuel Weibel <samuel.weibel@sea.ch>
+        signed-off-by: Samuel Weibel <samuel.weibel@sea.ch>
+      author: Samuel Weibel
+  version: 4.2.11
+  date: 2019-09-19T12:55:06.188Z
+- commits:
     - subject: Add "/stop" endpoint to stop the application from outside.
       hash: 6e6c2aa636f4d0a6d689357c28f207b2d0b85cb8
       body: ''
