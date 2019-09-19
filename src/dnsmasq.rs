@@ -7,9 +7,9 @@ use config::Config;
 
 pub fn start_dnsmasq(config: &Config, device: &Device) -> Result<Child> {
     let args = [
-        // the following addresses were taken from 
+        // the following addresses were taken from
         // https://github.com/tretos53/Captive-Portal/blob/master/dnsmasq.conf
-        // they are required because otherwise the WiFi portal will not 
+        // they are required because otherwise the WiFi portal will not
         // be shown automatically when connecting to the WiFi on Android devices
         "--address=/connectivitycheck.gstatic.com/216.58.206.131",
         "--address=/www.gstatic.com/216.58.206.99",
